@@ -44,3 +44,8 @@ traditional_models, dl_models, preprocessor = load_pretrained_models()
 analyzer = TweetAnalyzer(preprocessor, traditional_models, dl_models)
 result = analyzer.analyze_tweet('your offensive tweet')
 ```
+
+<br />
+
+> [!NOTE]  
+> bi-gru and bi-lstm models are not available in the pre-trained directory because of GitHub file size limitations.
